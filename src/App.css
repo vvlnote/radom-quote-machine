@@ -1,5 +1,30 @@
 .App {
+  display: flex;
   text-align: center;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.box {
+  margin-top: 20%;
+  padding: .5rem;
+  height: 200px;
+  width: 30%;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.03);
+  border-radius: 4px;
+  color: #843d4f;
+  background: #eafdf9;
+  border-bottom: 1px solid #F9F2D6;
+  border-right: 1px solid #F9F2D6;
+}
+#author {
+  text-align: right;
+  font-size: 0.8em;
+}
+#new-quote {
+  top: 75%;
+  left: 75%;
 }
 
 .App-logo {
